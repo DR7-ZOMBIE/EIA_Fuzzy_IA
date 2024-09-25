@@ -4,7 +4,7 @@
 
 Este proyecto consiste en el desarrollo de un **controlador Fuzzy de tipo Mamdani** para guiar un robot móvil, **Amigobot**, en entornos desconocidos. El objetivo principal es evitar obstáculos y optimizar las trayectorias del robot mediante el uso de reglas basadas en heurística y datos de sensores ultrasónicos.
 
-![Robot Amigobot](images/amigobot.png)
+![image](https://github.com/user-attachments/assets/c58ad232-7ecf-4580-9cb9-7cbd5e2156d0)
 
 ## 📑 Tabla de Contenidos
 - [🔍 Introducción](#introducción)
