@@ -29,8 +29,6 @@ La robótica móvil ha experimentado un gran avance, tanto en la academia como e
 - **🛞 Sistema de Tracción**: Diferencial
 - **🌐 Control**: Se realiza a través de una conexión LAN, con odometría para determinar la posición relativa del robot.
 
-![Sensores del Amigobot](images/sensores.png)
-
 ## 🎛️ Diseño del Controlador Fuzzy
 
 ### ⚙️ Entradas y Salidas
@@ -43,6 +41,11 @@ La robótica móvil ha experimentado un gran avance, tanto en la academia como e
 - **Salidas**:
   1. 🏎️ Velocidad lineal.
   2. 🔄 Velocidad angular.
+ 
+![image](https://github.com/user-attachments/assets/9c7ba81e-3bad-4eab-be4f-cd3a7b53a439)
+
+![image](https://github.com/user-attachments/assets/28bb4fbd-a65d-461f-a942-3df126237c83)
+
 
 ### 📊 Conjuntos Borrosos
 
@@ -59,8 +62,9 @@ El conjunto de reglas Fuzzy está compuesto por **26 combinaciones** diseñadas 
 
 La simulación se llevó a cabo en el entorno **Player Stage**, donde el robot fue capaz de navegar eficientemente por mapas con diferentes obstáculos, sin colisionar con ningún objeto. A continuación, se muestran algunas imágenes de los recorridos simulados:
 
-![Simulación Mapa 1](images/simulacion_mapa1.png)
-![Simulación Mapa 2](images/simulacion_mapa2.png)
+![image](https://github.com/user-attachments/assets/4e5ac288-ade1-41c8-bbfb-99c8bc9c061a)
+
+![image](https://github.com/user-attachments/assets/18e49153-9db8-4a80-8688-3447aeb635ad)
 
 En los ensayos reales, el **Amigobot** evitó objetos grandes y realizó el trayecto sin colisiones. Las pruebas fueron satisfactorias y demostraron la capacidad del controlador en un entorno real.
 
@@ -71,6 +75,11 @@ El **controlador Fuzzy** implementado permite la navegación eficiente de un rob
 - El uso de sistemas **MIMO** con controladores Fuzzy es una opción efectiva.
 - La simplicidad del **control Mamdani** lo hace adecuado para aplicaciones de tiempo real.
 - El controlador puede implementarse en sistemas de procesamiento más avanzados como ARM o Core 2 Duo.
+
+![image](https://github.com/user-attachments/assets/946b8d6f-19cf-4cfa-a7fd-2ecaac9be5ff)
+
+![image](https://github.com/user-attachments/assets/8b477a48-596a-46d2-aecf-eda3b2e2df5b)
+
 
 ## 📚 Referencias
 
